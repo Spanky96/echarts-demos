@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>案件趋势分析</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	</head>
+
+	<body>
+		<div class="ind01"></div>
+		<div class="ind02"><h1>案件趋势分析</h1></div>
+		<!--顶上的标题-->
+		<div class="ind42">
+			<h2>江阴市案件趋势分析</h2>
+			<ul class="ind44">
+				<li class="ind44_li1"><div>2018年<span>5284</span></div></li>
+				<li class="ind44_li2"><div>2017年<span>5284</span></div></li>
+				<li class="ind44_li3"><div>2016年<span>5284</span></div></li>
+			</ul>
+			<div class="clear"></div>
+			<div class="ind45">
+				<div class="ind45_box">
+					<div class="ind46">2018年案件数量相关案由排名</div>
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" class="ind47">
+						<tr class="dark">
+							<td width="76" align="center"><img src="images/img043.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img044.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img045.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img046.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img047.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img048.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img049.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img050.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						
+					</table>
+					<div class="jiantou2"><img src="images/img051.png"/></div>
+				</div>
+				
+				<div class="ind45_box none">
+					<div class="ind46">2017年案件数量相关案由排名</div>
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" class="ind47">
+						<tr class="dark">
+							<td width="76" align="center"><img src="images/img043.png"/></td>
+							<td>222案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img044.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img045.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img046.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img047.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img048.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img049.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img050.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						
+					</table>
+					<div class="jiantou3"><img src="images/img051.png"/></div>
+				</div>
+				<div class="ind45_box none">
+					<div class="ind46">2016年案件数量相关案由排名</div>
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" class="ind47">
+						<tr class="dark">
+							<td width="76" align="center"><img src="images/img043.png"/></td>
+							<td>3333案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img044.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img045.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img046.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img047.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img048.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr class="dark">
+							<td align="center"><img src="images/img049.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="images/img050.png"/></td>
+							<td>案由名称案由名称</td>
+						</tr>						
+					</table>
+					<div class="jiantou4"><img src="images/img051.png"/></div>
+				</div>
+			</div>
+		</div>
+		<div class="ind43">
+			<div class="ind48">各镇街历年案件分析</div>
+			<div class="ind49"><div id="echart" style="width: 100%;height:360px;"></div></div>
+			<div class="ind50">
+				<div class="ind51">
+					<div class="ind52">
+						<div class="ind52_l fl">
+							<ul class="ind53">
+								<li class="on choose"><span>01</span>案由名称案由名称</li>
+								<li class="choose"><span>02</span>案由名称案由名称</li>
+								<li class="choose"><span>03</span>案由名称案由名称</li>
+								<li class="choose"><span>04</span>案由名称案由名称</li>
+								<li class="choose"><span>05</span>案由名称案由名称</li>
+							</ul>
+						</div>
+						<div class="ind52_m fl">
+							<div class="ind54">
+								<div class="ps">
+									<p class="on">案由：1这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：2这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：3这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：4这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：5这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：6这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：7这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：8这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：9这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+									<p class="none" >案由：10这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊这是案由啊</p>
+								</div>
+								<div id="subChart" style="width: 100%;height:300px;"></div>
+							</div>
+						</div>
+						<div class="ind52_r fr">
+							<ul class="ind53">
+								<li class="choose"><span>06</span>案由名称案由名称</li>
+								<li class="choose"><span>07</span>案由名称案由名称</li>
+								<li class="choose"><span>08</span>案由名称案由名称</li>
+								<li class="choose"><span>09</span>案由名称案由名称</li>
+								<li class="choose"><span>10</span>案由名称案由名称</li>
+							</ul>
+						</div>
+					</div>
+					<div class="jiantou5"><img src="images/img051.png"/></div>
+				</div>
+			
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".ind44 li").click(function() {
+				$(this).addClass('on');
+				var index = $(this).index();
+				$(this).addClass("on").siblings().removeClass("on");
+				$(".ind45_box").eq(index).show().siblings().hide();
+			});
+			
+			$(".ind52_l li").click(function() {
+				$(".ind52_r li,.ind52_l li").removeClass("on");
+				var index = $(this).index();
+				$(this).addClass("on");
+				$(".ind54 p").eq(index).show().siblings().hide();
+			});
+			$(".ind52_r li").click(function() {
+				$(".ind52_r li,.ind52_l li").removeClass("on");
+				var index = $(this).index();
+				$(this).addClass("on");
+				$(".ind54 p").eq(index + 5).show().siblings('p').hide();
+			});
+
+		</script>
+		<script src="js/echarts.min.js"></script>
+		<script src="js/ajczqk.js"></script>
+		<script>
+			var myChart = echarts.init(document.getElementById('echart'), 'ajczqk');
+			var mySubChart = echarts.init(document.getElementById('subChart'), 'ajczqk');
+
+			myChart.on('click', function(param) {
+				var index = 0;
+				if (param.componentType == "series") {
+					index = param.dataIndex;
+				} else if (param.componentType == "xAxis") {
+					index = dataObj.category.findIndex(function(n) {
+						return n==param.value;
+					});
+				} else {
+					return;
+				}
+				currentIndex = index;
+				$(".jiantou5").eq(0).css('left', 54 + index*61 + 'px');
+				updateChart(dataObj);
+				updateSubChart(dataObj, index);
+			});
+			var currentIndex = 0;
+			var dataObj = {
+				legend: ['2016年','2017年','2018年'],
+				category: ['顾山镇','长泾镇','新桥镇','祝塘镇','华士镇','周庄镇','徐霞客镇','青阳镇','月城镇','南闸街道','云亭街道','城东街道', '澄江街道','夏港街道','利港街道','申港街道','璜土镇'],
+				data: [[100,160,250,140,120,100,160,250,140,120,100,160,250,140,120,119,200],
+						[180,100,150,140,350,140,170,210,140,180,100,110,210,340,110,129,100],
+						[120,160,270,140,180,102,164,250,120,120,110,190,270,170,120,189,220]]
+			};
+			function updateChart(dataObj) {
+				var option = {
+				grid:{
+					x:50,
+					y:10,
+					x2:10,
+					y2:120
+				},
+				tooltip : {
+					trigger : 'axis',
+					show:true,
+				},
+				legend: {
+					data:dataObj.legend,
+					right: 50,
+					textStyle: {
+						fontSize: 22
+					}
+				},
+    			calculable : true,
+				xAxis : [
+					{
+						type : 'category',
+						data : dataObj.category,
+						axisLabel: {
+							interval:0,
+							fontSize: 22,
+							formatter: function (value) {
+								var str = value.split("");
+								return (dataObj.category[currentIndex] == value ? '{color1|' : '{color2|') + str.join("\n") + '}';
+							},
+							rich: {
+								color1: {
+									fontSize: 22,
+									color: '#FF890C'
+								},
+								color2: {
+									fontSize: 22,
+									color: '#fff'
+								}
+							}
+						},
+						splitLine: {show: false},
+						axisTick: {show: false},
+						triggerEvent: true
+					}
+				],
+				yAxis : [
+					{
+						type : 'value',
+						axisLabel: {
+							fontSize: 22
+						}
+					}
+				],
+				series : [
+					{
+						name: dataObj.legend[0],
+						type:'bar',
+						data: dataObj.data[0],
+						itemStyle: {
+							normal: {
+								color: '#0C98E7'
+							}
+						}
+					},{
+						name:dataObj.legend[1],
+						type:'bar',
+						data:dataObj.data[1],
+						itemStyle: {
+							normal: {
+								color: '#42BC69'
+							}
+						}
+					},{
+						name:dataObj.legend[2],
+						type:'bar',
+						data:dataObj.data[2],
+						itemStyle: {
+							normal: {
+								color: '#F6C449'
+							}
+						}
+					}]
+				};
+				myChart.setOption(option);
+			}
+			function updateSubChart(dataObj, index) {
+				var option2 = {
+					title: {
+						text: "近3年案件数量分析",
+						x: "center",
+						textStyle: {
+							fontSize: 25
+						}
+					},
+					grid:{
+						x:50,
+						y:50,
+						x2:10,
+						y2:50
+					},
+					tooltip : {
+						trigger : 'item',
+						show:true,
+					},
+					xAxis : [
+						{
+							type : 'category',
+							data : dataObj.legend,
+							axisLabel: {
+								interval:0,
+								fontSize: 22
+							},
+							splitLine: {show: false},
+							axisTick: {show: false}
+						}
+					],
+					yAxis : [
+						{
+							type : 'value',
+							axisLabel: {
+								fontSize: 22
+							}
+						}
+					],
+					series : [
+						{
+							type:'line',
+							data:[dataObj.data[0][index],dataObj.data[1][index],dataObj.data[2][index]],
+							itemStyle: {
+								normal: {
+									color: '#0C98E7'
+								}
+							}
+						}
+					]
+				};
+			mySubChart.setOption(option2);
+			}
+			updateChart(dataObj);
+			updateSubChart(dataObj, 0);
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>案件阶段分析</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<style>
+			.tooltips {
+				position: absolute;
+				top: 50%;
+				color: white;
+				left: 5%;
+			}
+			.tooltips2 {
+				position: absolute;
+				top: 50%;
+				color: white;
+				right: 5%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="ind01"></div>
+		<div class="ind02">
+			<h1>案件阶段分析</h1></div>
+		<!--顶上的标题-->
+		<div class="ind55">
+			<div class="ind57">各镇街案件分析</div>
+			<div class="ind58"><div id="gzjajfx" style="width: 100%;height:480px;"></div></div>
+			<div class="ind59">
+				<div class="ind60">
+					<div class="ind61">
+						<div class="ind61_l fl">
+							<div class="tooltips"><span class="i">▲</span><span class="c"></span></div>
+							<div id="zjdajfx" style="width: 100%;height:320px;"></div>
+						</div>
+						<div class="ind61_m fl">
+							<div class="ind62 fl">
+								<ul>
+									<li class="on">立案</li>
+									<li>处罚</li>
+									<li>结案</li>
+									<li>归档</li>
+									<li>报备</li>
+									<li>公示</li>
+								</ul>
+							</div>
+							<div class="ind63 fr">
+								<div class="ind63_box">
+									<ul>
+										<li><span class="num1">1</span>这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+										<li><span class="num2">2</span>这是地址</li>
+										<li><span class="num3">3</span>这是地址</li>
+										<li><span class="num4">4</span>这是地址</li>
+										<li><span class="num4">5</span>这是地址</li>
+									</ul>
+									<div class="jiao1"><img src="images/img060.png" /></div>
+								</div>
+
+								<div class="ind63_box none">
+									<ul>
+										<li><span class="num1">1</span>2这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+										<li><span class="num2">2</span>这是地址</li>
+										<li><span class="num3">3</span>这是地址</li>
+										<li><span class="num4">4</span>这是地址</li>
+										<li><span class="num4">5</span>这是地址</li>
+									</ul>
+									<div class="jiao1"><img src="images/img060.png" /></div>
+								</div>
+
+								<div class="ind63_box none">
+									<ul>
+										<li><span class="num1">1</span>3这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+										<li><span class="num2">2</span>这是地址</li>
+										<li><span class="num3">3</span>这是地址</li>
+										<li><span class="num4">4</span>这是地址</li>
+										<li><span class="num4">5</span>这是地址</li>
+									</ul>
+									<div class="jiao1"><img src="images/img060.png" /></div>
+								</div>
+								<div class="ind63_box none">
+									<ul>
+										<li><span class="num1">1</span>4这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+										<li><span class="num2">2</span>这是地址</li>
+										<li><span class="num3">3</span>这是地址</li>
+										<li><span class="num4">4</span>这是地址</li>
+										<li><span class="num4">5</span>这是地址</li>
+									</ul>
+									<div class="jiao1"><img src="images/img060.png" /></div>
+								</div>
+								<div class="ind63_box none">
+									<ul>
+										<li><span class="num1">1</span>5这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+										<li><span class="num2">2</span>这是地址</li>
+										<li><span class="num3">3</span>这是地址</li>
+										<li><span class="num4">4</span>这是地址</li>
+										<li><span class="num4">5</span>这是地址</li>
+									</ul>
+									<div class="jiao1"><img src="images/img060.png" /></div>
+								</div>
+								<div class="ind63_box none">
+									<ul>
+										<li><span class="num1">1</span>6这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+										<li><span class="num2">2</span>这是地址</li>
+										<li><span class="num3">3</span>这是地址</li>
+										<li><span class="num4">4</span>这是地址</li>
+										<li><span class="num4">5</span>这是地址</li>
+									</ul>
+									<div class="jiao1"><img src="images/img060.png" /></div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="ind61_r fr">
+							<h4>部门占比</h4>
+							<div class="tooltips2"><span class="i">▲</span><span class="c">数据整体上升10%</span></div>
+							<div id="bmzbChart" style="width: 100%;height:320px;"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="arrow5"><img src="images/img058.png" /></div>
+				</div>
+			</div>
+		</div>
+		<div class="ind56">
+			<div class="ind64">江阴市案件汇总</div>
+			<div class="ind65"><div id="jyajhz" style="width: 100%;height:320px;"></div></div>
+			<div class="ind66">
+				<div class="ind67">公示案情分析</div>
+				<div class="ind68">
+					<div class="ind68_l fl">
+						<h2><span>TOP5</span>案由排名</h2>
+						<ul>
+							<li><span class="num1">1</span>5这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+							<li><span class="num2">2</span>这是地址</li>
+							<li><span class="num3">3</span>这是地址</li>
+							<li><span class="num4">4</span>这是地址</li>
+							<li><span class="num4">5</span>这是地址</li>
+						</ul>
+					</div>
+					<div class="ind68_r fr">
+						<h2><span>TOP5</span>部门</h2>
+						<ul>
+							<li><span class="num1">1</span>5这是地址这是地址这是地址这是地址这是地址这是地址这是dfsdfsdfsdf地址这是地址</li>
+							<li><span class="num2">2</span>这是地址</li>
+							<li><span class="num3">3</span>这是地址</li>
+							<li><span class="num4">4</span>这是地址</li>
+							<li><span class="num4">5</span>这是地址</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/echarts.min.js"></script>
+		<script src="js/ajczqk.js"></script>
+		<script type="text/javascript">
+			$(".ind62 li").click(function() {
+				$(this).addClass('on');
+				var index = $(this).index();
+				$(this).addClass("on").siblings().removeClass("on");
+				$(".ind63_box").eq(index).show().siblings().hide();
+				var top = 10 + 50 * index;
+				$(".ind63_box").eq(index).find('.jiao1').css("top", top + 'px');
+				updateToolTips(index, "数据xxxxxx");
+			});
+			
+			// 各镇案件分析
+			var gzjajfx = echarts.init(document.getElementById('gzjajfx'), 'ajczqk');
+			// 镇街道案件分析
+			var zjdajfx = echarts.init(document.getElementById('zjdajfx'), 'ajczqk');
+			// 部门占比
+			var bmzbChart = echarts.init(document.getElementById('bmzbChart'), 'ajczqk');
+			// 江阴案件汇总
+			var jyajhz = echarts.init(document.getElementById('jyajhz'), 'ajczqk');
+
+			// 柱子点击事件
+			gzjajfx.on('click', function(param) {
+				var index = 0;
+				if (param.componentType == "series") {
+					index = param.dataIndex;
+				} else if (param.componentType == "xAxis") {
+					index = dataObj.data.findIndex(function(n) {
+						return n.name == param.value;
+					});
+				} else {
+					return;
+				}
+				currentIndex = index;
+				$(".arrow5").eq(0).css('left', 85 + index * 68 + 'px')
+				updateGzjajfxChart(dataObj);
+				updateZjdajfxChart(dataObj);
+				updateBmzbChart(dataObj);
+				updateToolTips(0, "数据整体上升10%");
+			});
+			// 默认指向第一个（顾山镇）
+			var currentIndex = 0;
+
+			// 数据模型
+			var dataObj = {
+				colors: ['#1C8648', '#436FFF', '#FF293A', '#9600AE', '#FF7E00', '#FFC847'],
+				jieduan: ['立案','处罚','结案','归档','报备','公示'],
+				depart: ['城管','安检','土管','司法','案纪委','其他'],
+				data: [
+					{name: '顾山镇', jieduan: [15,20,15,20,13,20], depart: [42,15,20,42,10,20]},
+					{name: '长泾镇', jieduan: [10,25,15,20,12,20], depart: [22,15,20,4,20,20]},
+					{name: '新桥镇', jieduan: [10,20,12,20,13,20], depart: [12,15,20,42,10,20]},
+					{name: '祝塘镇', jieduan: [10,20,15,20,13,20], depart: [16,15,20,42,30,20]},
+					{name: '华士镇', jieduan: [10,20,15,21,14,20], depart: [12,15,20,12,10,20]},
+					{name: '周庄镇', jieduan: [10,20,15,20,13,20], depart: [12,55,20,42,10,20]},
+					{name: '徐霞客镇',jieduan: [10,20,15,20,13,20], depart: [18,15,20,32,10,20]},
+					{name: '青阳镇', jieduan: [10,20,15,20,13,20], depart: [12,15,20,42,10,20]},
+					{name: '月城镇', jieduan: [10,20,15,20,13,20], depart: [12,85,20,45,10,20]},
+					{name: '南闸街道', jieduan: [10,20,15,10,13,20], depart: [12,15,20,46,10,20]},
+					{name: '云亭街道', jieduan: [10,10,15,20,13,20], depart: [12,15,20,42,10,20]},
+					{name: '城东街道', jieduan: [10,20,15,20,17,20], depart: [12,25,20,42,10,20]},
+					{name: '澄江街道',jieduan: [10,20,15,20,13,20], depart: [12,15,20,42,10,20]},
+					{name: '夏港街道', jieduan: [10,20,15,20,11,20], depart: [32,15,20,52,10,20]},
+					{name: '利港街道', jieduan: [10,20,15,20,13,20], depart: [12,15,20,42,10,20]},
+					{name: '申港街道', jieduan: [10,20,15,20,8,20], depart: [12,15,20,15,10,20]},
+					{name: '璜土镇', jieduan: [10,20,15,23,13,20], depart: [12,15,20,45,15,20]}],
+				total:[185, 355, 267, 354, 231, 340]
+			};
+
+			// chart更新接口
+			function updateGzjajfxChart(dataObj) {
+				var option = {
+				grid:{
+					x:80,
+					y:50,
+					x2:10,
+					y2:120
+				},
+				tooltip : {
+					trigger : 'axis',
+					show:true,
+				},
+				legend: {
+					data: dataObj.jieduan,
+					right: 50,
+					top: 20,
+					itemGap: 50,
+					textStyle: {
+						fontSize: 22
+					}
+				},
+				calculable : true,
+				xAxis : [
+					{
+						type : 'category',
+						data : dataObj.data.map(function(n){return n.name;}),
+						axisLabel: {
+							interval:0,
+							fontSize: 22,
+							formatter: function (value) {
+								var str = value.split("");
+								return (dataObj.data[currentIndex].name == value ? '{color1|' : '{color2|') + str.join("\n") + '}';
+							},
+							rich: {
+								color1: {
+									fontSize: 22,
+									color: '#FF890C'
+								},
+								color2: {
+									fontSize: 22,
+									color: '#fff'
+								}
+							}
+						},
+						splitLine: {show: false},
+						axisTick: {show: false},
+						triggerEvent: true
+					}
+				],
+				yAxis : [
+					{
+						type : 'value',
+						axisLabel: {
+							fontSize: 22
+						}
+					}
+				],
+				series :dataObj.jieduan.map(function(n, index) {
+					return {
+						barGap:'150%', 
+						barWidth: 30,
+						name: n,
+						type:'bar',
+						stack: '总量',
+						itemStyle : { normal: {color: dataObj.colors[index]}},
+						data: dataObj.data.map(function(o) {return o.jieduan[index];})
+					}
+				}).reverse()
+			};
+				gzjajfx.setOption(option);
+			}
+			
+			function updateZjdajfxChart(dataObj) {
+				var option = {
+					title: {
+						text: dataObj.data[currentIndex].name + '案件分析',
+						left: 60,
+						textStyle: {
+							fontSize: 23,
+							color: '#fff'
+						}
+					},
+					series: [
+						{
+							name: '各类案件占比情况',
+							type:'pie',
+							clockWise:false,
+							radius : [110, 130],
+							center: ['50%', '55%'],
+							label: {
+								show: false
+							},
+							data: dataObj.data[currentIndex].jieduan.map(function(n, index) {
+								return {
+									name: dataObj.jieduan[index],
+									value: n,
+									itemStyle: {color:  dataObj.colors[index]}
+								};
+							})
+						}
+					],
+					tooltip : {
+						trigger : 'item',
+						show:true,
+					}
+				};
+				zjdajfx.setOption(option);
+			}
+			
+			function updateBmzbChart(dataObj) {
+				var option = {
+					legend: {
+						data: dataObj.depart,
+						left: 0,
+						bottom: 60,
+						itemGap: 20,
+						orient : 'vertical',
+						textStyle: {
+							fontSize: 20,
+							color: '#fff'
+						}
+					},
+					series: [
+						{
+							name: '各类案件占比情况',
+							type:'pie',
+							clockWise:false,
+							radius : [110, 130],
+							center: ['60%', '45%'],
+							label: {
+								show: false
+							},
+							data: dataObj.data[currentIndex].depart.map(function(n, index) {
+								return {
+									name: dataObj.depart[index],
+									value: n,
+									itemStyle: {color:  dataObj.colors[index]}
+								};
+							})
+						}
+					],
+					tooltip : {
+						trigger : 'item',
+						show:true,
+					}
+				};
+				bmzbChart.setOption(option);
+			}
+
+			function updateJyajhzChart(dataObj) {
+				var option = {
+					legend: [{
+						data: dataObj.jieduan.slice(dataObj.jieduan.length / 2, dataObj.jieduan.length),
+						right: 0,
+						bottom: 20,
+						itemGap: 20,
+						orient : 'vertical',
+						textStyle: {
+							fontSize: 20,
+							color: '#fff'
+						}
+					},{
+						data: dataObj.jieduan.slice(0, dataObj.jieduan.length / 2),
+						left: 0,
+						bottom: 20,
+						orient : 'vertical',
+						itemGap: 20,
+						textStyle: {
+							fontSize: 20,
+							color: '#fff'
+						}
+					}],
+					series: {
+						name: '各类案件占比情况',
+						type:'pie',
+						clockWise:false,
+						radius : [0, 130],
+						center: ['50%', '50%'],
+						label: {
+							show: false
+						},
+						emphasis: {
+							radius : [50, 150],
+						},
+						data: dataObj.total.map(function(n, index) {
+							return {
+								name: dataObj.jieduan[index],
+								value: n,
+								itemStyle: {color: dataObj.colors[index]},
+							};
+						})
+					},
+					tooltip : {
+						trigger : 'item',
+						show:true,
+					}
+				};
+				jyajhz.setOption(option);
+			}
+		
+			// 饼图里面的信息 更新 不是很清楚需求  大致接口如下
+			// TODO 根据具体需求去改动
+			function updateToolTips(index, content) {
+				$(".tooltips .i").css('color', dataObj.colors[index]);
+				$(".tooltips .c").text(content);
+			}
+			// 首次加载自动更新
+			updateGzjajfxChart(dataObj);
+			// 调整箭头位置
+			$(".arrow5").eq(0).css('left', 85 + 'px');
+			updateZjdajfxChart(dataObj);
+			updateBmzbChart(dataObj);
+			updateJyajhzChart(dataObj);
+			updateToolTips(0, "数据整体上升10%");
+		</script>
+	</body>
+
+</html>

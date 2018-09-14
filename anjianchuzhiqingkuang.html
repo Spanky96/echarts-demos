@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>案件处置情况</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	</head>
+
+	<body>
+		<div class="ind01"></div>
+		<div class="ind02"><h1>案件处置情况</h1></div>
+		<!--顶上的标题-->
+		<div class="ind31">
+			<div class="ind33">
+				<div class="ind35 fl">各镇、街案件处置对比</div>
+				<div class="ind36 fr">
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td valign="top">
+								<select>
+									<option>2018</option>
+									<option>2017</option>
+								</select>
+							</td>
+							<td valign="top">
+								<select>
+									<option>九月份</option>
+									<option>八月份</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="ind34">
+				<div class="ind38"><div id="echart" style="width: 100%;height:380px;"></div></div>
+				<div class="ind37">
+					<div class="ind37_1">城管执法大队案件处置情况</div>
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" class="ind37_2">
+						<tr>
+							<td>执法部门</td>
+							<td>人员数量</td>
+							<td>案件处置量</td>
+							<td>人均案件办理时间</td>
+							<td>案件案由量</td>
+						</tr>
+						<tr>
+							<td>一中队</td>
+							<td>12</td>
+							<td>45</td>
+							<td>0.3</td>
+							<td>123</td>
+						</tr>
+						<tr>
+							<td>一中队</td>
+							<td>12</td>
+							<td>45</td>
+							<td>0.3</td>
+							<td>123</td>
+						</tr>
+						<tr>
+							<td>一中队</td>
+							<td>12</td>
+							<td>45</td>
+							<td>0.3</td>
+							<td>123</td>
+						</tr>
+						<tr>
+							<td>一中队</td>
+							<td>12</td>
+							<td>45</td>
+							<td>0.3</td>
+							<td>123</td>
+						</tr>
+						<tr>
+							<td>一中队</td>
+							<td>12</td>
+							<td>45</td>
+							<td>0.3</td>
+							<td>123</td>
+						</tr>
+					</table>
+					<div class="jiantou"><img src="images/img042.png"/></div>
+				</div>
+			</div>
+		</div>
+		<div class="ind32">
+			<div class="ind39">
+				<ul>
+					<li class="on">平均立案审批时间</li>
+					<li>平均处罚审批时间</li>
+					<li>平均结案审批时间</li>
+					<li>平均案件办理时间</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="ind40">
+				<div class="ind40_box">					
+					<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr class="line1">
+							<td width="20%">排名</td>
+							<td width="30%">镇、街</td>
+							<td>平均立案审批时间</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img029.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img030.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img031.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img032.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img033.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img034.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img035.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img036.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img037.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img038.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+					</table>
+				</div>
+				<div class="ind40_box none">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr class="line1">
+							<td width="20%">排名</td>
+							<td width="30%">镇、街</td>
+							<td>平均立案审批时间</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img029.png" /></td>
+							<td>周庄镇2</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img030.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img031.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img032.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img033.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img034.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img035.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img036.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img037.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img038.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+					</table>
+				</div>
+				<div class="ind40_box none">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr class="line1">
+							<td width="20%">排名</td>
+							<td width="30%">镇、街</td>
+							<td>平均立案审批时间</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img029.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img030.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img031.png" /></td>
+							<td>周庄镇3</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img032.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img033.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img034.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img035.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img036.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img037.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img038.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+					</table>
+				</div>
+				<div class="ind40_box none">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr class="line1">
+							<td width="20%">排名</td>
+							<td width="30%">镇、街</td>
+							<td>平均立案审批时间</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img029.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img030.png" /></td>
+							<td>周庄镇4</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img031.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img032.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img033.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img034.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img035.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img036.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line2">
+							<td><img src="images/img037.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+						<tr class="line1">
+							<td><img src="images/img038.png" /></td>
+							<td>周庄镇</td>
+							<td>0.3s</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".ind39 li").click(function() {
+				$(this).addClass('on');
+				var index = $(this).index();
+				$(this).addClass("on").siblings().removeClass("on");
+				$(".ind40_box").eq(index).show().siblings().hide();
+			});
+		</script>
+		<script src="js/echarts.min.js"></script>
+		<script src="js/ajczqk.js"></script>
+		<script>
+			var dataObj = {
+				currentIndex: 0, // 城管执法大队
+				category: ["城管执法大队","璜土镇","利港街道","申港街道","夏港街道","南闸街道","澄江街道","城东街道","周庄镇","云亭街道","华士镇","新桥镇","顾山镇","青阳镇","月城镇","徐霞客镇","祝塘镇","长泾镇"],
+				data: [500, 2000, 3600, 1000, 1000, 2000, 500, 2000, 800, 1000, 1300, 1500, 500, 2200, 3600, 2100, 3100, 2000]
+			}
+			var myChart = echarts.init(document.getElementById('echart'), 'ajczqk');
+			myChart.on('click', function(param) {
+				var index = 0;
+				if (param.componentType == "series") {
+					index = param.dataIndex;
+				} else if (param.componentType == "xAxis") {
+					index = dataObj.category.findIndex(function(n) {
+						return n==param.value;
+					});
+				} else {
+					return;
+				}
+				dataObj.currentIndex = index;
+				updateChart(dataObj);
+			});
+			function updateChart (dataObj) {
+				var option = {
+				grid:{
+                    x:80,
+                    y:10,
+                    x2:10,
+                    y2:70
+                },
+				xAxis: {
+					data: dataObj.category,
+					axisLabel: {
+						interval:0,
+						rotate:25,
+						fontSize: 19,
+						padding: [15,-15,0,0],
+						rich: {
+							color1: {
+								fontSize: 20,
+								color: '#0BDCFD',
+								fontWeight: 'bold'
+							}
+						},
+						formatter: function (value) {
+							return dataObj.category[dataObj.currentIndex] == value ? '{color1|' + value + '}' : value;
+						}
+					},
+					splitLine: {show: false},
+					axisTick: {show: false},
+					triggerEvent: true
+				},
+				yAxis: {
+					axisLabel: {
+						fontSize: 24
+					}
+				},
+				series: [{
+					type: 'bar',
+					data: dataObj.data,
+					barGap:'150%', 
+					barWidth: 25,
+					itemStyle: {
+						normal: {
+							color: new echarts.graphic.LinearGradient(
+								0, 0, 0, 1,
+								[
+									{offset: 0, color: '#01C19A'},
+									{offset: 1, color: '#2F9AF8'}
+								]
+							)
+						},
+						emphasis: {
+							color: new echarts.graphic.LinearGradient(
+								0, 0, 0, 1,
+								[
+									{offset: 0, color: '#7bf82f'},
+									{offset: 1, color: '#04c37e'}
+								]
+							)
+						}
+					}
+				}],
+				tooltip : {
+					trigger : 'item',
+					show:true,
+				}
+			};
+			myChart.setOption(option);
+			}
+			updateChart(dataObj);
+		</script>
+	</body>
+
+</html>
